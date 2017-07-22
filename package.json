@@ -1,0 +1,44 @@
+{
+  "name": "fbvideos",
+  "version": "1.0.0",
+  "description": "Easily extract downloadable link of publicly available videos on facebook.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeDotJS/fbvideos.git"
+  },
+  "keywords": [
+    "facebook",
+    "api",
+    "download",
+    "video",
+    "public",
+    "link",
+    "url",
+    "extract",
+    "fetch",
+    "scrap"
+  ],
+  "dependencies": {
+    "got": "^7.1.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (http://rishigiri.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeDotJS/fbvideos/issues"
+  },
+  "homepage": "https://github.com/CodeDotJS/fbvideos#readme"
+}
