@@ -2,7 +2,7 @@
 <br>
 <img src="https://raw.githubusercontent.com/rishigiridotcom/rishigiri.com/835ef5231dc96ae7c751b1a35acc664986726b4b/github/fbvideos.png" width="250px">
 <br>
-<a href="https://travis-ci.org/CodeDotJS/fbvideos/"><img src="https://travis-ci.org/CodeDotJS/fbvideos.svg?branch=master"></a> <img src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg">
+<a href="https://travis-ci.org/CodeDotJS/fbvideos"><img src="https://travis-ci.org/CodeDotJS/fbvideos.svg?branch=master"></a> <img src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg">
 <br>
 </h1>
 
