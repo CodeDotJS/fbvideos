@@ -22,13 +22,18 @@ const fbvid = require('fbvideos');
 const video = 'https://www.facebook.com/9gag/videos/10155721204506840/';
 
 fbvid.low(video).then(vid => {
-  console.log(vid)
-  // => { url: 'https://video.fpat1-1.fna.fbcdn.net/...mp4?934&oe=5972F363' }
+	var videoUrl = /[^"]*/.exec(vid.url)[0];
+  console.log(videoUrl);
+  
+	// => { url: 'https://video.fpat1-1.fna.fbcdn.net/...mp4?934&oe=5972F363' }
 
 });
 
 fbvid.high(video).then(vid => {
-  console.log(vid);
+
+var videoUrl = /[^"]*/.exec(vid.url)[0];
+  console.log(videoUrl);
+
   // => { url: 'https://video.fpat1-1.fna.fbcdn.net/...mp4?934&OE=2kf2lf4g' }
 });
 ```
