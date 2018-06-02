@@ -1,5 +1,5 @@
 import test from 'ava';
-import m from './';
+import m from '.';
 
 test('fbdl.low()', async t => {
 	const video = await m.low('https://www.facebook.com/9gag/videos/10155721204506840/');
