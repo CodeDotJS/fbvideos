@@ -1,6 +1,6 @@
 {
   "name": "fbvideos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily extract downloadable link of publicly available videos on facebook.",
   "main": "index.js",
   "engines": {
