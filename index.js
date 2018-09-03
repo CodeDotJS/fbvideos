@@ -6,7 +6,7 @@ const msg = 'Either the video is deleted or it\'s not shared publicly!';
 
 const lowResolution = link => {
 	return got(link).then(res => {
-		const link = res.body.split('sd_src_no_ratelimit:"')[1].split('",aspect_ratio:1,')[0];
+		const link = res.body.split('sd_src:"')[1].split('",hd_tag')[0];
 		return {
 			url: link
 		};
