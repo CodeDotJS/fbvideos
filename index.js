@@ -10,11 +10,11 @@ const lowResolution = link => {
 		return {
 			url: link
 		};
-	}).catch(err => {
-		if (err) {
-			err.message = msg;
+	}).catch(error => {
+		if (error) {
+			error.message = msg;
 		}
-		return err.message;
+		return error.message;
 	});
 };
 
@@ -24,11 +24,11 @@ const highResolution = link => {
 		return {
 			url: link
 		};
-	}).catch(err => {
-		if (err) {
-			err.message = msg;
+	}).catch(error => {
+		if (error) {
+			error.message = msg;
 		}
-		return err.message;
+		return error.message;
 	});
 };
 
